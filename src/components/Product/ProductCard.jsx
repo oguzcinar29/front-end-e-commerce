@@ -61,7 +61,12 @@ function ProductCard(props) {
                 XXL
               </button>
             </div>
-            <button onClick={() => addToCart(product.id)}>ADD TO CART</button>
+            <button
+              style={{ cursor: "pointer" }}
+              onClick={() => addToCart(product.id)}
+            >
+              ADD TO CART
+            </button>
             <div className="last-texts">
               <p>
                 <span>Category : </span>Woman,T-shirt,Crop Top
